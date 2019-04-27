@@ -1,5 +1,4 @@
 AtmosphericNights for 1.31 GOG GOTY
-
 Mod (https://www.nexusmods.com/witcher3/mods/1305) update to v1.31.
 
 Installation:
