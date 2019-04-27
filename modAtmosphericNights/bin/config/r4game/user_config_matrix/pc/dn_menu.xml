@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="DNMenu" displayName="Mods.Atmospheric Nights">
+		<PresetsArray>
+			<Preset id="0" displayName="Default" tags="customNames;nonLocalized;customDisplayName">
+				<Entry varId="darkIntensityNovi"				value="70"	/>
+				<Entry varId="darkIntensitySkel"				value="70"	/>
+				<Entry varId="darkIntensityKaer"				value="70"	/>
+				<Entry varId="darkIntensityOrchard"				value="70"	/>
+				<Entry varId="darkIntensityWyzima"				value="70"	/>
+				<Entry varId="darkIntensityMyst"				value="70"	/>
+				<Entry varId="darkIntensitySpiral"				value="70"	/>
+				<Entry varId="darkIntensityWinter"				value="70"	/>
+				<Entry varId="darkIntensityTous"				value="70"	/>
+				<Entry varId="customHours"						value="false"	/>
+				<Entry varId="darkStart"						value="2"	/>
+				<Entry varId="fullDark"							value="1"	/>
+				<Entry varId="darkEnd"							value="1"	/>
+				<Entry varId="noDark"							value="2"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="darkIntensityNovi" displayName="Darkness Intensity Novigrad" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensitySkel" displayName="Darkness Intensity Skellige" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensityKaer" displayName="Darkness Intensity Kaer Morhen" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensityOrchard" displayName="Darkness Intensity White Orchard" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensityWyzima" displayName="Darkness Intensity Wyzima" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensityMyst" displayName="Darkness Intensity Isle of Mist" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensitySpiral" displayName="Darkness Intensity The Spiral" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensityWinter" displayName="Darkness Intensity Winter White Orchard" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="darkIntensityTous" displayName="Darkness Intensity Toussaint" displayType="SLIDER;0;100;100" 	tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="customHours" displayName="Use custom hours for start and end of nights" displayType="TOGGLE"/>
+			<Var id="darkStart" displayName="Starting Darkness Hour"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="6.00 PM">
+                        <Entry varId="darkStart" value="1080"/>
+                    </Option>
+					<Option id="1" displayName="7.00 PM">
+                        <Entry varId="darkStart" value="1140"/>
+                    </Option>
+					<Option id="2" displayName="8.00 PM">
+                        <Entry varId="darkStart" value="1200"/>
+                    </Option>
+					<Option id="3" displayName="9.00 PM">
+                        <Entry varId="darkStart" value="1260"/>
+                    </Option>
+					<Option id="4" displayName="10.00 PM">
+                        <Entry varId="darkStart" value="1320"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fullDark" displayName="Time Before Full Darkness"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="1 hour">
+                        <Entry varId="fullDark" value="60"/>
+                    </Option>
+					<Option id="1" displayName="2 hours">
+                        <Entry varId="fullDark" value="120"/>
+                    </Option>
+					<Option id="2" displayName="3 hours">
+                        <Entry varId="fullDark" value="180"/>
+                    </Option>
+					<Option id="3" displayName="4 hours">
+                        <Entry varId="fullDark" value="240"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="darkEnd" displayName="Starting End Of Darkness Hour"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="2.00 AM">
+                        <Entry varId="darkEnd" value="120"/>
+                    </Option>
+					<Option id="1" displayName="3.00 AM">
+                        <Entry varId="darkEnd" value="180"/>
+                    </Option>
+					<Option id="2" displayName="4.00 AM">
+                        <Entry varId="darkEnd" value="240"/>
+                    </Option>
+					<Option id="3" displayName="5.00 AM">
+                        <Entry varId="darkEnd" value="300"/>
+                    </Option>
+					<Option id="4" displayName="6.00 AM">
+                        <Entry varId="darkEnd" value="360"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="noDark" displayName="Time Before Full End Of Darkness"
+                displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="1 hour">
+                        <Entry varId="noDark" value="60"/>
+                    </Option>
+					<Option id="1" displayName="2 hours">
+                        <Entry varId="noDark" value="120"/>
+                    </Option>
+					<Option id="2" displayName="3 hours">
+                        <Entry varId="noDark" value="180"/>
+                    </Option>
+					<Option id="3" displayName="4 hours">
+                        <Entry varId="noDark" value="240"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+        </VisibleVars>		
+    </Group>	
+</UserConfig>
